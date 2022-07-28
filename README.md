@@ -1,11 +1,11 @@
 # **Mushroom Classification**
 
-## Identifying Mushrooms 
+## Identifying Mushrooms: 
 
 Over time mushrooms have become an near vital part of our culture, namely in cuisine or biology. One of the most important things about a mushroom is whether or not its poisonous. This project will be an exploartion of the features that mushrooms possess, and the making of a predictive model to classify whether or not they are edible. 
 
 ## Data:
-
+https://archive.ics.uci.edu/ml/datasets/mushroom
 The dataset I used comes from the ever reliable UCI Machine Learning Repository, with the aptly named "Mushroom Data Set"
 It is a csv of 8214 mushrooms with 22 attributes describing singular and very specific features, Cap color and shape, bruises, odor, and the gill sizes among a myriad of other things. the target value is "Class" which is denoted as "e" or "p", namely "Edible" or "Poisonous"
 
@@ -27,12 +27,12 @@ The above plots were used to explore multiple values with classification as the 
 ![image](https://user-images.githubusercontent.com/105755535/181651852-7e6b68cc-6c2d-4207-a6cf-9de5f2c50e4c.png)
 These barplots are isolations of an aggregated dataframe after One Hot Encoding. The example I've given shows that the mushrooms that have features that can exclusively identify if a mushroom is edible make up a very small percentage of this dataset 
 
-## Recommendations
+## Recommendations:
 
 Both KNN and Logistic Regression serve their purpose and are 100% accurate but of the two I would still use Logistic Regression. Its default parameters will give perfect predictions on this model, while KNN may run slower with used with larger datasets even after its tuned. Logistic Regression also just works better since this is a binary classification problem. The model should be ideally used for classifying whether or not a mushroom is edible or not based on multiple features it may possess.
 
-## Limitations and Next Steps
+## Limitations and Next Steps:
 The logreg model's incapable of multivariate classification, and it might only do well with a high number of attributes and values. Its best features also had to do with very specific features such as odor and spore print color, which means it might not be as effective without features similar to that which allows the model's perfect accuracy. Further iterations may require different types of datasets and tuning.
 
-## Contact
+## Contact:
 Any questions or comments can be directed to joshguy62@gmail.com
