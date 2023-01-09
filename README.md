@@ -35,4 +35,4 @@ Both KNN and Logistic Regression serve their purpose and are 100% accurate but o
 The logreg model's incapable of multivariate classification, and it might only do well with a high number of attributes and values. Its best features also had to do with very specific features such as odor and spore print color, which means it might not be as effective without features similar to that which allows the model's perfect accuracy. Further iterations may require different types of datasets and tuning.
 
 ## Contact:
-Any questions or comments can be directed to joshguy62@gmail.com
+Any questions or comments can be directed to jkhoury10000@gmail.com
